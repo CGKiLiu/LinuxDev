@@ -1,0 +1,1 @@
+cmd_/home/kiliu/mkernel/hellomodule.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/kiliu/mkernel/hellomodule.ko /home/kiliu/mkernel/hellomodule.o /home/kiliu/mkernel/hellomodule.mod.o ;  true
